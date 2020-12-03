@@ -1,0 +1,421 @@
+/* css for the page where users write recommendations and exports pdfs */
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: hidden;
+}
+
+#nccnp {
+    height: 20%;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 6%;
+}
+
+#name {
+    border: 2px solid #018eaa;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    padding-left: 2%;
+}
+
+#save {
+    background-color: #b7bf35;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    color: white;
+}
+
+#saveText {
+    color: white;
+    line-height: 45px;
+    font-size: 18px;
+    font-family: Lato;
+    display: unset;
+}
+
+#export {
+    background-color: #762F89;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+#exportText {
+    color: white;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: Lato;
+    display: unset;
+}
+
+#back {
+    width: 30%;
+    margin-left: 9%;
+    margin-top: 3%;
+    font-family: Lato;
+}
+
+#goalArrow {
+    width: 50%;
+    margin-top: 3%;
+    font-family: Lato;
+}
+
+#backG {
+    width: 60%;
+    margin-left: 9%;
+    margin-top: 3%;
+    font-family: Lato;
+}
+
+#goalArrowG {
+    width: 50%;
+    margin-top: 3%;
+    font-family: Lato;
+}
+
+#recArrow {
+    width: 33%;
+    margin-top: 3%;
+    font-family: Lato;
+}
+
+#workspace {
+    width: 95%;
+    margin: 2%;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h2 {
+    width: 75%;
+    align-content: right;
+    margin: 0 auto;
+    position: relative;
+    left: 31%;
+    font-family: Lato;
+}
+
+#npData {
+    display: none;
+}
+
+h3 {
+    color: #762F89;
+}
+
+h3, p{
+    font-family: Lato;
+    margin: 0 0 5px 4px;
+}
+
+#warn {
+    margin: 0 auto;
+    color: #018eaa;
+    width: -webkit-fill-available;
+    margin-left: 30%;
+}
+
+p strong {
+    color:#018eaa;
+}
+
+table {
+     width: 100%;
+     height: 95%;
+     border-collapse: collapse;
+     border: 1.5px solid black;
+}
+
+tr {
+    border-bottom: 1.5px solid black;
+}
+
+td {
+    width: 50%;
+}
+
+.a {
+    padding-left: 20px;
+}
+
+.q {
+    color: #018eaa;
+}
+
+.uploadBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.btn {
+    font-family: lato;
+    color: #018eaa;
+    margin-right: 10px;
+
+}
+
+.survey {
+    border-right: 1.5px solid black;
+    vertical-align: top;
+}
+
+.type {
+    border: 1px solid black;
+    margin-left: 15;
+    width: 96%;
+    height: 100px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-family: Lato;
+}
+
+form {
+    display: contents;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #018eaa;
+    border-radius: 10px;
+  }
+  
+img:last-of-type {
+  display: none;
+}
+
+#nccnp {
+  display:block;
+}
+
+.recs {
+    border-right: 1.5px solid black;
+    vertical-align: top;
+    width: 33%;
+}
+
+.as {
+    border-right: 1.5px solid black;
+    vertical-align: top;
+    width: 25%;
+}
+
+#collapse {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 62%;
+}
+
+#collapsed {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 48%;
+}
+
+#collapse1 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 47%;
+}
+
+#collapsed1 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 33%;
+}
+
+#otherCollapsed1 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 60%;
+}
+
+#bothCollapsed1 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 46%;
+}
+
+#collapse2 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 70%;
+}
+
+#collapsed2 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 62.8%;
+}
+
+#otherCollapsed2 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 63%;
+}
+
+#bothCollapsed2 {
+    border: none;
+    background-color: #b7bf35;
+    color: black;
+    padding: 3px 6px 3px 6px;
+    margin-top: .5%;
+    position: fixed;
+    left: 49.5%;
+}
+
+.recTitle {
+  width: 60%;
+  margin: 1% 32% 0 1% !important;
+  display: inline;
+}
+
+.hide { 
+ display: none !important;   
+}
+
+.collapsed {
+    width: 2% !important;
+}
+
+
+/* Style for exported pdf */
+  @media print {
+      
+    img:last-of-type {
+        display: none;
+    }
+    
+    #nccnp {
+        width: 200px;
+        margin-left: 10%;
+    }
+
+    #buttons {
+        display: none;
+    }
+
+    #npName {
+        width: 50%;
+        position: inherit;
+        margin-top: 10%;
+        align-content: right;
+        margin: 0;
+        position: absolute;
+        left: 60%;
+        top: 5%;
+    }
+
+    #npData {
+        display: inline;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        font-family: Lato;
+    }
+
+    #workspace {
+        border: none;
+    }
+    
+    button {
+        display: none;
+    }
+
+    .response {
+        vertical-align: top;
+    }
+
+    table {
+        page-break-inside: auto;
+    }
+
+    tr {
+        page-break-inside:avoid; 
+        page-break-after:auto
+    }
+
+    #workspace {
+        height: auto;
+    }
+
+    .type {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+  }
